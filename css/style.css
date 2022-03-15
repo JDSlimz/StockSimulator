@@ -1,0 +1,22 @@
+html, body{
+    height: 99%;
+    width: 99%;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+#graphWrapper{
+    flex: 3;
+}
+
+#buttonsWrapper{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
